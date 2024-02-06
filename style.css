@@ -60,10 +60,12 @@ button {
     font-size: 20px;
     border: none;
 }
-button:hover{
+
+button:hover {
     opacity: 0.8;
 }
-button:active{
+
+button:active {
     opacity: 0.6;
 }
 
@@ -81,18 +83,20 @@ section {
     margin: 15px 0;
 }
 
-.box {
+.box{
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 5px;
 }
-.moeda{
+
+.moeda {
     color: #777777;
     font-size: 14px;
-    }
-    .valor-moeda{
+}
+
+.valor-moeda {
     color: #777777;
     font-size: 18px;
     font-weight: 700;
-    }
+}

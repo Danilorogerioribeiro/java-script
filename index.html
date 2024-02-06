@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https: //fonts.googleapis.com/css2? família= Roboto:wght@400;700 & display=swap" rel="stylesheet">
-    <script src="./scrpt.js"></script>
+    
 </head>
 
 <body>
@@ -18,18 +18,19 @@
 
     <main>
         <label class="real-brasil">
-            Converter <b>para</b>
+            Converter <b>de</b>
             <select>
                 <option>R$ Real brasileiro</option>
             </select>
         </label>
 
         <label class="dolar">
-            Converter <b>de</b>
-            <select>
-                <option>
+            Converter <b>para</b>
+            
+            <select class="currency-select">
+                <option value="Dolar">
                     US$ Dólar americano
-                <option>€ Euro</option>
+                <option value="Euro" class="currency-value-euro">€ Euro</option>
                 </option>
 
             </select>
@@ -40,7 +41,7 @@
 
         <label class="resultado">
             Valor
-            <input placeholder="R$ 0">
+            <input class="input-value" placeholder="R$ 0">
         </label>
 
         <button class="convert-button">Converter</button>
@@ -52,18 +53,18 @@
 
                 <p class="moeda">Real</p>
 
-                <p class="valor-moeda">R$ 0,00</p>
+                <p class="currency-value-real">R$ 0,00</p>
 
             </div>
 
             <img src="./assets/seta.png" alt="minha-seta" class="seta">
 
             <div class="box">
-                <img src="./assets/estados-unidos (1) 1.png" alt="bandeira-USA">
+                <img class="currency-img" src="./assets/dolar.png" alt="bandeira-USA">
 
-                <p class="moeda">Dólar</p>
+                <p class="moeda-2">Dólar</p>
 
-                <p class="valor-moeda">US$ 0,00</p>
+                <p class="currency-value-dolar">US$ 0,00</p>
 
             </div>
 
@@ -72,12 +73,9 @@
     </main>
 
 
-
-
-
-
 </body>
 
+<script src="./script.js"></script>
 
 
 </html>
