@@ -79,12 +79,12 @@ function changeCurrency() {
     }
 
     if (currencySelect.value == "libra") {
-        currencyLibra.innerHTML = "libra"
+        moeda.innerHTML = "libra"
         currencyImg.src = "./assets/libra.png"
     }
 
     if (currencySelect.value == "biticoin") {
-        currencyBiticoin.innerHTML = "biticoin"
+        moeda.innerHTML = "biticoin"
         currencyImg.src = "./assets/bitcoin 1.png"
     }
 
